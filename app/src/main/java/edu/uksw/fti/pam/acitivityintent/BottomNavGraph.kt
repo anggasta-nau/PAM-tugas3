@@ -4,10 +4,8 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import edu.uksw.fti.pam.acitivityintent.screens.HomeScreen
-import edu.uksw.fti.pam.acitivityintent.screens.LandingPage
-import edu.uksw.fti.pam.acitivityintent.screens.ProfileScreen
-import edu.uksw.fti.pam.acitivityintent.screens.SettingsScreen
+import edu.uksw.fti.pam.acitivityintent.screens.*
+import edu.uksw.fti.pam.acitivityintent.ui.screens.FollowingScreen
 
 @Composable
 fun BottomNavGraph(navController: NavHostController) {
@@ -19,10 +17,10 @@ fun BottomNavGraph(navController: NavHostController) {
             LandingPage()
         }
         composable(route = BottomBarScreen.Following.route) {
-            ProfileScreen()
+            FollowingScreen()
         }
         composable(route = BottomBarScreen.Profile.route) {
-            SettingsScreen()
+            ProfileScreenPreview()
         }
         composable(route = BottomBarScreen.Add.route) {
 //            ProfileScreen()

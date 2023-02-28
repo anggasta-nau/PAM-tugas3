@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">AcitivityIntent</string>
     <string name="Anime">ANIME</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_sign_up">Sign Up</string>
+    <string name="label_first_name">First Name</string>
+    <string name="label_last_name">Last Name</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="button_confirm">Confirm</string>
 </resources>
